@@ -8,12 +8,15 @@
    <link rel="stylesheet" href="style.css">
 </head>
 <body>
-    <div class="grid-background"></div>
     <!-- Header -->
     <header id="header">
         <div class="container">
             <div class="header-content">
-                <a href="#" class="logo">ITSO<span>TEAM</span></a>
+                <div class="logo-container">
+                    <img src="../img/logo.png" alt="ITSO Logo">
+                    <div class="logo-text">ITSO</div>
+                </div>
+                
                 <button class="mobile-menu-btn" id="mobileMenuBtn">
                     <i class="fas fa-bars"></i>
                 </button>
@@ -32,171 +35,163 @@
     
     <!-- Hero Section -->
     <section class="hero" id="home">
+        <div class="hero-bg"></div>
         <div class="hero-content">
-            <h1>Information Technology <br>Society</h1>
+            <h1>Information Technology <span style="background: var(--gradient); -webkit-background-clip: text; -webkit-text-fill-color: transparent;">Society</span></h1>
             <p>Connecting IT enthusiasts, fostering innovation, and building the future of technology together.</p>
             <a href="#team" class="cta-button">Meet Our Team</a>
         </div>
     </section>
     
     <!-- About Section -->
-  
-     <section class="section" id="about">
+    <section class="section" id="about">
         <h2 class="section-title">About ITSO</h2>
         <div class="about-content">
             <div class="about-text">
                 <h3>Who We Are</h3>
                 <p>The Information Technology Student Organization (ITSO) is a community of passionate students dedicated to exploring the vast world of technology. We provide a platform for students to connect, learn, and grow together in the field of information technology.</p>
                 <p>Our organization brings together students from various IT disciplines to collaborate on projects, share knowledge, and prepare for careers in the ever-evolving tech industry.</p>
-                <!-- <p>Through workshops, hackathons, and networking events, we aim to bridge the gap between academic learning and real-world applications.</p> -->
             </div>
             <div class="about-image">
                 <img src="https://images.unsplash.com/photo-1522202176988-66273c2fd55f?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=2071&q=80" alt="ITSO Team Collaboration">
             </div>
         </div>
     </section>
-
     
     <!-- Team Section -->
     <section class="team-section" id="team">
         <div class="container">
-            <div class="section-title">
-                <h2>ITSO MEMBERS</h2>
-               
+            <div class="team-header">
+                <h2 class="section-title">ITSO OFFICERS</h2>
+                <p class="team-subtitle">Meet the dedicated team driving innovation and fostering community in information technology</p>
             </div>
         </div>
         
         <!-- Members Modal -->
-
         <div class="member-modal" id="memberModal">
-        <div class="modal-content">
-            <span class="close-modal" id="closeModal">&times;</span>
-            <img src="" alt="" class="member-photo" id="modalPhoto">
-            <h2 class="member-name" id="modalName"></h2>
-            <p class="member-role" id="modalRole"></p>
-            <p class="member-details" id="modalDetails"></p>
-            <div class="tech-stack" id="modalTech"></div>
-            <div class="member-links" id="modalLinks"></div>
+            <div class="modal-content">
+                <span class="close-modal" id="closeModal">&times;</span>
+                <img src="" alt="" class="member-photo" id="modalPhoto">
+                <h2 class="member-name" id="modalName"></h2>
+                <p class="member-role" id="modalRole"></p>
+                <p class="member-details" id="modalDetails"></p>
+                <div class="tech-stack" id="modalTech"></div>
+                <div class="member-links" id="modalLinks"></div>
+            </div>
         </div>
-    </div>
 
         <div class="banner">
-            <div class="slider" style="--quantity: 11">
+            <div class="slider" style="--quantity: 9">
                 <div class="item" style="--position: 1" data-member="1">
-                    <img src="https://images.unsplash.com/photo-1507003211169-0a1dd7228f2d?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=774&q=80" alt="Alex Johnson">
+                    <img src="../img/mina.png" alt="Allen Mina">
                 </div>
                 <div class="item" style="--position: 2" data-member="2">
-                    <img src="https://images.unsplash.com/photo-1494790108755-2616b612b786?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=774&q=80" alt="Sarah Williams">
+                    <img src="../img/oliver.png" alt="Olivera John Rey">
                 </div>
                 <div class="item" style="--position: 3" data-member="3">
-                    <img src="https://images.unsplash.com/photo-1472099645785-5658abf4ff4e?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=1740&q=80" alt="Michael Chen">
+                    <img src="../img/fate.png" alt="Fate Guanzon">
                 </div>
                 <div class="item" style="--position: 4" data-member="4">
-                    <img src="https://images.unsplash.com/photo-1580489944761-15a19d654956?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=761&q=80" alt="Emily Rodriguez">
+                    <img src="../img/monica.png" alt="Monica">
                 </div>
                 <div class="item" style="--position: 5" data-member="5">
-                    <img src="https://images.unsplash.com/photo-1500648767791-00dcc994a43e?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=774&q=80" alt="David Kim">
+                    <img src="../img/melody.png" alt="Melody">
                 </div>
                 <div class="item" style="--position: 6" data-member="6">
-                    <img src="https://images.unsplash.com/photo-1544005313-94ddf0286df2?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=776&q=80" alt="Jessica Patel">
+                    <img src="../img/jen.png" alt="Jennelyn Bornilla">
                 </div>
                 <div class="item" style="--position: 7" data-member="7">
-                    <img src="https://images.unsplash.com/photo-1552058544-f2b08422138a?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=798&q=80" alt="Robert Wilson">
+                    <img src="../img/joven.png" alt="Joven Quinal">
                 </div>
                 <div class="item" style="--position: 8" data-member="8">
-                    <img src="https://images.unsplash.com/photo-1560250097-0b93528c311a?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=774&q=80" alt="Lisa Brown">
+                    <img src="../img/allison.png" alt="Allison">
                 </div>
                 <div class="item" style="--position: 9" data-member="9">
-                    <img src="https://images.unsplash.com/photo-1573496359142-b8d87734a5a2?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=776&q=80" alt="Daniel Miller">
-                </div>
-                <div class="item" style="--position: 10" data-member="10">
-                    <img src="https://images.unsplash.com/photo-1489424731084-a5d8b219a5bb?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=774&q=80" alt="Amanda Taylor">
-                </div>
-                <div class="item" style="--position: 11" data-member="11">
-                    <img src="https://images.unsplash.com/photo-1519085360753-af0119f7cbe7?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=774&q=80" alt="James Anderson">
+                    <img src="../img/Adviser.png" alt="Rey Centeno ">
                 </div>
             </div>
             
             <div class="content">
-                <h1 data-content="ITSO TEAM">
-                    ITSO TEAM
-                </h1>
                 <div class="author">
                     <h2>INFORMATION TECHNOLOGY</h2>
                     <p><b>Meet Our Team</b></p>
-                    <p>
-                        Click on any team member to view their details
-                    </p>
+                    <p>Click on any team member to view their details</p>
                 </div>
-                <div class="model"></div>
+                <h1 data-content="ITSO TEAM">ITSO <br>TEAM</h1>
             </div>
         </div>
 
-
-
-          <div class="container">
-            <div class="section-title">
-                <h2>ITSO COMMITTEE</h2>
-               
+        <div class="container">
+            <div class="team-header">
+                <h2 class="section-title">ITSO COMMITTEE</h2>
+                <p class="team-subtitle">Our dedicated committee members who work behind the scenes to make everything possible</p>
             </div>
         </div>
         
-      
-
         <div class="banner">
-            <div class="slider" style="--quantity: 8">
-                <div class="item" style="--position: 12" data-member="12">
-                    <img src="https://images.unsplash.com/photo-1507003211169-0a1dd7228f2d?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=774&q=80" alt="Alex Johnson">
-                </div>
-                <div class="item" style="--position: 13" data-member="13">
-                    <img src="https://images.unsplash.com/photo-1494790108755-2616b612b786?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=774&q=80" alt="Sarah Williams">
-                </div>
-                <div class="item" style="--position: 14" data-member="14">
-                    <img src="https://images.unsplash.com/photo-1472099645785-5658abf4ff4e?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=1740&q=80" alt="Michael Chen">
-                </div>
-                <div class="item" style="--position: 15" data-member="15">
-                    <img src="https://images.unsplash.com/photo-1580489944761-15a19d654956?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=761&q=80" alt="Emily Rodriguez">
-                </div>
-                <div class="item" style="--position: 16" data-member="16">
-                    <img src="https://images.unsplash.com/photo-1500648767791-00dcc994a43e?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=774&q=80" alt="David Kim">
-                </div>
-                <div class="item" style="--position: 17" data-member="17">
-                    <img src="https://images.unsplash.com/photo-1544005313-94ddf0286df2?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=776&q=80" alt="Jessica Patel">
-                </div>
-                <div class="item" style="--position: 18" data-member="18">
-                    <img src="https://images.unsplash.com/photo-1552058544-f2b08422138a?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=798&q=80" alt="Robert Wilson">
-                </div>
-                <div class="item" style="--position: 19" data-member="19">
-                    <img src="https://images.unsplash.com/photo-1560250097-0b93528c311a?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=774&q=80" alt="Lisa Brown">
-                </div>
-                <!-- <div class="item" style="--position: 9" data-member="9">
-                    <img src="https://images.unsplash.com/photo-1573496359142-b8d87734a5a2?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=776&q=80" alt="Daniel Miller">
-                </div>
+            <div class="slider" style="--quantity: 16">
                 <div class="item" style="--position: 10" data-member="10">
-                    <img src="https://images.unsplash.com/photo-1489424731084-a5d8b219a5bb?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=774&q=80" alt="Amanda Taylor">
+                    <img src="../img/abella.png" alt="Alex Abella">
                 </div>
                 <div class="item" style="--position: 11" data-member="11">
-                    <img src="data:image/webp;base64,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" alt="James Anderson">
-                </div> -->
+                    <img src="../img/carlo.png" alt="Carlo">
+                </div>
+                <div class="item" style="--position: 12" data-member="12">
+                    <img src="../img/kenji.png" alt="Kenji">
+                </div>
+                <div class="item" style="--position: 13" data-member="13">
+                    <img src="../img/carl.png" alt="Carl">
+                </div>
+                <div class="item" style="--position: 14" data-member="14">
+                    <img src="../img/sam.png" alt="Sam">
+                </div>
+                <div class="item" style="--position: 15" data-member="15">
+                    <img src="../img/17.png" alt="Jessica Patel">
+                </div>
+                <div class="item" style="--position: 16" data-member="16">
+                    <img src="../img/kristel.png" alt="Kristel">
+                </div>
+                <div class="item" style="--position: 17" data-member="17">
+                    <img src="../img/gracie.png" alt="Gracie">
+                </div>
+                <div class="item" style="--position: 18" data-member="18">
+                    <img src="../img/18.png" alt="James Mangao">
+                </div>
+                <div class="item" style="--position: 19" data-member="19">
+                    <img src="../img/dar.png" alt="Dar">
+                </div>
+                <div class="item" style="--position: 20" data-member="20">
+                    <img src="../img/19.png" alt="Mitch Del Poso">
+                </div>
+                <div class="item" style="--position: 21" data-member="21">
+                    <img src="../img/gio.png" alt="Gio">
+                </div>
+                <div class="item" style="--position: 22" data-member="22">
+                    <img src="../img/olarte.png" alt="Olarte">
+                </div>
+                <div class="item" style="--position: 23" data-member="23">
+                    <img src="../img/gerald.png" alt="Gerald">
+                </div>
+                <div class="item" style="--position: 24" data-member="24">
+                    <img src="../img/23.png" alt="Punzalan">
+                </div>
+                <div class="item" style="--position: 25" data-member="25">
+                    <img src="../img/24.png" alt="Organo Dale">
+                </div>
             </div>
             
             <div class="content">
-                <h1 data-content="ITSO TEAM">
-                    ITSO TEAM
-                </h1>
+                <h1 data-content="ITSO TEAM">ITSO TEAM</h1>
                 <div class="author">
                     <h2>INFORMATION TECHNOLOGY</h2>
                     <p><b>Meet Our Team</b></p>
-                    <p>
-                        Click on any team member to view their details
-                    </p>
+                    <p>Click on any team member to view their details</p>
                 </div>
-                <div class="model"></div>
             </div>
         </div>
     </section>
     
-     <!-- Events Section -->
+    <!-- Events Section -->
     <section class="events-section" id="events">
         <h2 class="section-title">Upcoming Events</h2>
         <div class="events-grid">
@@ -238,14 +233,13 @@
         <div class="container">
             <div class="section-title">
                 <h2>Get In Touch</h2>
-             
             </div>
             <div class="contact-content">
                 <div class="contact-info">
                     <h3>Contact Information</h3>
-                    <p><i class="fas fa-map-marker-alt"></i> Phase 1A, Pacita Complex 1,San Pedro City,Laguna</p>
+                    <p><i class="fas fa-map-marker-alt"></i> Phase 1A, Pacita Complex 1, San Pedro City, Laguna</p>
                     <p><i class="fas fa-phone"></i> +123-456-789</p>
-                    <p><i class="fas fa-envelope"></i>admission@lyceumalabang.edu.ph</p>
+                    <p><i class="fas fa-envelope"></i> admission@lyceumalabang.edu.ph</p>
                     <p><i class="fas fa-clock"></i> Monday - Friday: 6:00 AM - 5:00 PM</p>
                     <div class="social-links">
                         <a href="#"><i class="fab fa-linkedin"></i></a>
@@ -267,53 +261,52 @@
         </div>
     </section>
     
- 
-            <!-- Footer -->
-<footer class="footer">
-    <div class="container">
-        <div class="footer-content">
-            <div class="footer-column">
-                <h3>ITSO Team</h3>
-                <p>The Information Technology Student Organization (ITSO) is a community of passionate students dedicated to exploring the vast world of technology.</p>
-                <div class="footer-social">
-                    <a href="#"><i class="fab fa-facebook-f"></i></a>
-                    <a href="#"><i class="fab fa-twitter"></i></a>
-                    <a href="#"><i class="fab fa-linkedin-in"></i></a>
-                    <a href="#"><i class="fab fa-instagram"></i></a>
+    <!-- Footer -->
+    <footer class="footer">
+        <div class="container">
+            <div class="footer-content">
+                <div class="footer-column">
+                    <h3>ITSO Team</h3>
+                    <p>The Information Technology Student Organization (ITSO) is a community of passionate students dedicated to exploring the vast world of technology.</p>
+                    <div class="footer-social">
+                        <a href="#"><i class="fab fa-facebook-f"></i></a>
+                        <a href="#"><i class="fab fa-twitter"></i></a>
+                        <a href="#"><i class="fab fa-linkedin-in"></i></a>
+                        <a href="#"><i class="fab fa-instagram"></i></a>
+                    </div>
+                </div>
+                <div class="footer-column">
+                    <h3>Quick Links</h3>
+                    <ul>
+                        <li><a href="#home">Home</a></li>
+                        <li><a href="#about">About</a></li>
+                        <li><a href="#team">Members</a></li>
+                        <li><a href="#events">Events</a></li>
+                        <li><a href="#contact">Contact</a></li>
+                    </ul>
+                </div>
+                <div class="footer-column">
+                    <h3>Contact Info</h3>
+                    <ul class="contact-info">
+                        <li><i class="fas fa-map-marker-alt"></i> Phase 1A, Pacita Complex 1, San Pedro City, Laguna</li>
+                        <li><i class="fas fa-phone"></i> +123-456-789</li>
+                        <li><i class="fas fa-envelope"></i> admission@lyceumalabang.edu.ph</li>
+                    </ul>
+                </div>
+                <div class="footer-column">
+                    <h3>Newsletter</h3>
+                    <p>Subscribe to our newsletter for the latest updates and events.</p>
+                    <form class="newsletter-form">
+                        <input type="email" placeholder="Your Email" required>
+                        <button type="submit">Subscribe</button>
+                    </form>
                 </div>
             </div>
-            <div class="footer-column">
-                <h3>Quick Links</h3>
-                <ul>
-                    <li><a href="#home">Home</a></li>
-                    <li><a href="#about">About</a></li>
-                    <li><a href="#team">Members</a></li>
-                    <li><a href="#events">Events</a></li>
-                    <li><a href="#contact">Contact</a></li>
-                </ul>
-            </div>
-            <div class="footer-column">
-                <h3>Contact Info</h3>
-                <ul class="contact-info">
-                    <li><i class="fas fa-map-marker-alt"></i> Phase 1A, Pacita Complex 1, San Pedro City, Laguna</li>
-                    <li><i class="fas fa-phone"></i> +123-456-789</li>
-                    <li><i class="fas fa-envelope"></i> admission@lyceumalabang.edu.ph</li>
-                </ul>
-            </div>
-            <div class="footer-column">
-                <h3>Newsletter</h3>
-                <p>Subscribe to our newsletter for the latest updates and events.</p>
-                <form class="newsletter-form">
-                    <input type="email" placeholder="Your Email" required>
-                    <button type="submit">Subscribe</button>
-                </form>
+            <div class="footer-bottom">
+                <p>&copy; 2025 ITSO Team - Information Technology Society. All rights reserved.</p>
             </div>
         </div>
-        <div class="footer-bottom">
-            <p>&copy; 2025 ITSO Team - Information Technology Society. All rights reserved.</p>
-        </div>
-    </div>
-</footer>
+    </footer>
 
           <script src="script.js"></script>   
   </body>
