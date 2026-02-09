@@ -557,6 +557,22 @@
       overflow: hidden;
   }
 
+  /* Placeholder for offline / coming soon images */
+  .event-image.placeholder {
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      background: linear-gradient(135deg, rgba(99,102,241,0.06), rgba(16,185,129,0.04));
+      color: var(--gray-light);
+      font-weight: 600;
+      font-size: 1.1rem;
+  }
+
+  .event-image.placeholder .placeholder-text {
+      padding: 20px;
+      text-align: center;
+  }
+
   .event-image img {
       width: 100%;
       height: 100%;

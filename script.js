@@ -3,177 +3,177 @@ const teamMembers = {
     1: {
         name: "Jonathan Allen Mina",
         role: "President",
-        details: "Allen leads our organization with vision and dedication. With a passion for technology and leadership, he ensures ITSO achieves its goals and provides value to all members.",
+        details: "Allen's goal is to transform ITSO into the most influential tech community on campus. He focuses on driving organizational excellence, expanding membership diversity, fostering innovation projects, and establishing ITSO as a bridge between academic learning and industry opportunities.",
         tech: ["Leadership", "Project Management", "Web Development"],
-        photo: "../img/mina.png"
+        photo: "./img/mina.png"
     },
     2: {
         name: "Olivera John Rey",
         role: "Vice President/Internal",
-        details: "Olivera supports the president in organizational leadership and oversees various committees. He specializes in strategic planning and team coordination.",
+        details: "Olivera's goal is to strengthen ITSO's internal culture and maximize member satisfaction. He aims to create supportive committee structures, improve internal communication channels, ensure member retention, and foster a collaborative environment where everyone feels valued and engaged.",
         tech: ["Strategic Planning", "Team Management", "Networking"],
-        photo: "../img/oliver.png"
+        photo: "./img/oliver.png"
     },
     3: {
         name: "Guanzon, Kristine Fate ",
         role: "Vice President/External",
-        details: "Fate Guanzon represents ITSO in events and partnerships outside the campus. She helps build connections with other organizations and promotes ITSO’s goals to a wider community.",
+        details: "Fate's goal is to build strategic partnerships with tech companies, other student organizations, and industry leaders. She works to increase ITSO's visibility across campus and beyond, create collaboration opportunities with external tech communities, and bring industry expertise into ITSO activities.",
         tech: ["Documentation", "Communication", "Organization"],
-        photo: "../img/fate.png"
+        photo: "./img/fate.png"
     },
     4: {
         name: "Lecreo, Monica Praxides",
         role: "Secretary",
-        details: "Monica handles the organization's finances with precision and care. She manages budgets, expenses, and ensures financial transparency.",
+        details: "Monica's goal is to maintain organizational transparency and efficient documentation of all ITSO activities. She strives to create accurate records, streamline administrative processes, ensure all communications are properly archived, and provide reliable information for organizational decision-making.",
         tech: ["Budgeting", "Financial Management", "Excel"],
-        photo: "../img/monica.png"
+        photo: "./img/monica.png"
     },
     5: {
-        name: "Magana , Melody Odoño",
+        name: "Magana, Melody Odoño",
         role: "Assistant Secretary",
-        details: "Melody is the voice of ITSO, managing our external communications and building relationships with partners and the wider community.",
-        tech: ["Communication", "Marketing", "Social Media"],
-        photo: "../img/melody.png"
+        details: "Melody's goal is to enhance member communication and keep everyone informed and engaged. She focuses on timely announcements, engaging newsletters, consistent messaging across platforms, and creating a sense of community through proactive and responsive communications with all members.",
+        tech: ["Email/Messaging Platforms", "Microsoft Word/Google Docs", "Scheduling Tools"],
+        photo: "./img/melody.png"
     },
     6: {
         name: "Jennelyn Bornilla",
-        role: "Finance Officer (Treasurer)",
-        details: "Jennelyn plans and executes all ITSO events, from workshops to networking sessions. She ensures every event is memorable and impactful.",
-        tech: ["Event Planning", "Logistics", "Coordination"],
-        photo: "../img/jen.png"
+        role: "Treasurer",
+        details: "Jennelyn's goal is to manage ITSO's finances responsibly and fund meaningful member initiatives. She aims to allocate resources strategically, maximize value from every dollar spent, ensure financial sustainability, and enable ambitious projects that benefit the entire ITSO community.",
+        tech: ["Accounting Software", "Digital Payment Platforms", "Microsoft Excel / Google Sheets"],
+        photo: "./img/jen.png"
     },
     7: {
         name: "Joven Quinal",
-        role: "Technical Lead",
-        details: "Joven guides the technical direction of our projects and ensures our members have access to the latest technologies and learning resources.",
-        tech: ["Software Development", "Technical Training", "Mentoring"],
-        photo: "../img/joven.png"
+        role: "Auditor",
+        details: "Joven's goal is to ensure financial accountability and maintain regulatory compliance for ITSO. He conducts thorough audits, identifies financial discrepancies, provides recommendations for improvement, and ensures the organization operates with integrity and transparency in all financial matters.",
+        tech: ["Microsoft Excel / Google Sheets", "Accounting Software", "Audit Checklist"],
+        photo: "./img/joven.png"
     },
     8: {
-        name: "Allison",
-        role: "Membership Coordinator",
-        details: "Allison manages member recruitment and engagement, ensuring our community continues to grow and every member feels valued.",
+        name: "Allison John Arriola",
+        role: "P.R.O",
+        details: "Allison's goal is to grow ITSO's public reputation and attract talented new members to the community. She focuses on media coverage, positive brand perception, compelling public communications, and creating excitement about ITSO events and achievements throughout campus.",
         tech: ["Recruitment", "Community Building", "Engagement"],
-        photo: "../img/allison.png"
+        photo: "./img/allison.png"
     },
     9: {
         name: "Rey Centeno",
         role: "Faculty Advisor",
-        details: "Rey provides guidance and support from a faculty perspective, helping bridge the gap between academic learning and practical application.",
+        details: "Rey's goal is to bridge academic learning with real-world industry experience for ITSO members. He focuses on connecting members with professional opportunities, ensuring organizational activities align with academic excellence, and facilitating mentorship from experienced professionals in the tech industry.",
         tech: ["Mentoring", "Academic Guidance", "Industry Connections"],
-        photo: "../img/Adviser.png"
+        photo: "./img/Adviser.png"
     },
     10: {
-        name: "Alex Abella",
-        role: "Web Development Committee",
-        details: "Alex specializes in creating responsive and user-friendly web interfaces. He leads our web development initiatives and workshops.",
+        name: "Rey Vergel Abella",
+        role: "Lead Web Developer",
+        details: "Rey's goal is to modernize ITSO's digital presence and teach members web design excellence. He aims to create cutting-edge, responsive websites, mentor junior developers, establish best practices in web development, and inspire members to build impactful digital solutions.",
         tech: ["HTML/CSS", "JavaScript", "React"],
-        photo: "../img/abella.png"
+        photo: "./img/abella.png"
     },
     11: {
-        name: "Carlo",
-        role: "Cybersecurity Committee",
-        details: "Carlo focuses on security best practices and educates members about protecting digital assets and privacy.",
-        tech: ["Network Security", "Ethical Hacking", "Encryption"],
-        photo: "../img/carlo.png"
+        name: "John Carl Carillo",
+        role: "Grievance",
+        details: "Carlo's goal is Handles concerns, complaints, and issues raised by members with fairness and confidentiality. Acts as a mediator to help resolve conflicts and ensure a respectful, transparent, and supportive organizational environment.",
+        tech: ["Communication Tools", "Documentation & Record-Keeping Systems", "Case Management"],
+        photo: "./img/carlo.png"
     },
     12: {
-        name: "Kenji",
-        role: "Data Science Committee",
-        details: "Kenji explores the world of data analytics and machine learning, sharing insights and techniques with the ITSO community.",
-        tech: ["Python", "Data Analysis", "Machine Learning"],
-        photo: "../img/kenji.png"
+        name: "Kenji Generoso",
+        role: "Grievance",
+        details: "Kenji's goal is Handles concerns, complaints, and issues raised by members with fairness and confidentiality. Acts as a mediator to help resolve conflicts and ensure a respectful, transparent, and supportive organizational environment.",
+        tech: ["Communication Tools", "Documentation & Record-Keeping Systems", "Case Management"],
+        photo: "./img/kenji.png"
     },
     13: {
         name: "Carl",
-        role: "Mobile Development Committee",
-        details: "Carl leads our mobile app development efforts, creating cross-platform applications with modern frameworks.",
-        tech: ["React Native", "Flutter", "iOS/Android"],
-        photo: "../img/carl.png"
+        role: "Peace and Order",
+        details: "Carl's goal is to maintain order, safety, and discipline during ITSO activities and events. He assists in crowd control, ensures compliance with rules, and promotes a safe and respectful environment for all members.",
+        tech: ["Incident Report Forms", "CCTV / Event Monitoring Tools", "Two-Way Radio"],
+        photo: "./img/carl.png"
     },
     14: {
-        name: "Sam",
-        role: "AI/ML Committee",
-        details: "Sam explores artificial intelligence and machine learning applications, organizing workshops and projects in this cutting-edge field.",
-        tech: ["Python", "TensorFlow", "Neural Networks"],
-        photo: "../img/sam.png"
+        name: "Samuel Alcazar",
+        role: "Peace and Order",
+        details: "Samuel's goal is to maintain order, safety, and discipline during ITSO activities and events. He assists in crowd control, ensures compliance with rules, and promotes a safe and respectful environment for all members.",
+        tech: ["Incident Report Forms", "CCTV / Event Monitoring Tools", "Two-Way Radio"],
+        photo: "./img/sam.png"
     },
     15: {
-        name: "Jessica Patel",
-        role: "Outreach Committee",
-        details: "Jessica connects ITSO with the wider community, organizing volunteer activities and partnership opportunities.",
+        name: "Melody Magana",
+        role: "ASST. SEC.",
+        details: "Melody's goal is to expand community engagement and create meaningful volunteer opportunities for ITSO members. She focuses on building partnerships with local organizations, coordinating service projects, and fostering a sense of social responsibility and community impact.",
         tech: ["Community Engagement", "Partnership Development", "Volunteer Coordination"],
-        photo: "../img/17.png"
+        photo: "./img/melody.png"
     },
     16: {
-        name: "Kristel",
-        role: "Design Committee",
-        details: "Kristel focuses on UI/UX design principles, ensuring our projects are not only functional but also visually appealing and user-friendly.",
-        tech: ["Figma", "UI/UX Design", "Adobe Creative Suite"],
-        photo: "../img/kristel.png"
+        name: "Kristel Ladot",
+        role: "Social Media Manager",
+        details: "Kristel's goal is to create visually compelling designs that enhance user experience across all ITSO digital platforms. She applies UI/UX principles to all projects, mentors members in design thinking, ensures brand consistency, and demonstrates how great design drives user engagement and satisfaction.",
+        tech: ["Meta Business Suite", "UI/UX Design", "Adobe Creative Suite"],
+        photo: "./img/kristel.png"
     },
     17: {
-        name: "Gracie",
-        role: "Content Creation Committee",
-        details: "Gracie manages our digital content across various platforms, creating engaging materials that showcase ITSO's activities and achievements.",
+        name: "Gracie Castro",
+        role: "Creative Director",
+        details: "Gracie's goal is to produce engaging creative content that represents ITSO's innovation and culture. She develops compelling visual narratives, videos, and multimedia content that inspire and inform, showcases member achievements, and communicates ITSO's mission effectively to diverse audiences.",
         tech: ["Content Strategy", "Social Media", "Video Editing"],
-        photo: "../img/gracie.png"
+        photo: "./img/gracie.png"
     },
     18: {
-        name: "Daniel Miller",
-        role: "Research Committee",
-        details: "Daniel leads research initiatives within ITSO, exploring emerging technologies and their potential applications.",
+        name: "Mc Carlisle Dale Organo",
+        role: "3rd year Representative",
+        details: "Mc Carlisle's goal is to drive research initiatives and explore emerging technology trends within ITSO. He conducts investigations into cutting-edge developments, shares findings with the community, mentors junior researchers, and positions ITSO as a hub for technology innovation and discovery.",
         tech: ["Research Methodology", "Technical Writing", "Emerging Technologies"],
-        photo: "../img/18.png"
+        photo: "./img/18.png"
     },
     19: {
-        name: "Dar",
-        role: "Workshop Committee",
-        details: "Dar organizes and facilitates technical workshops, ensuring members have hands-on learning experiences with various technologies.",
-        tech: ["Workshop Planning", "Technical Training", "Public Speaking"],
-        photo: "../img/dar.png"
+        name: "Daryll Jhames Bonito",
+        role: "Web Design",
+        details: "Dar's goal is to develop cutting-edge web interfaces and lead design innovation at ITSO. He focuses on pushing boundaries in web aesthetics and functionality, teaching modern design trends, creating portfolio-worthy projects, and inspiring members to think creatively about web solutions.",
+        tech: ["HTML, CSS, JavaScript", "Figma", "Word Press"],
+        photo: "./img/dar.png"
     },
     20: {
-        name: "Amanda Taylor",
-        role: "Networking Committee",
-        details: "Amanda focuses on building professional connections for ITSO members with industry professionals and alumni.",
+        name: "Mark Joshua Punzalan",
+        role: "4th year Representative",
+        details: "Mark's goal is to build professional networks and establish industry connections for ITSO members. He facilitates introductions to tech professionals, organizes networking events, mentors juniors on career development, and helps bridge the gap between academic experience and professional opportunities.",
         tech: ["Networking", "Professional Development", "Event Coordination"],
-        photo: "../img/19.png"
+        photo: "./img/19.png"
     },
     21: {
-        name: "Gio",
-        role: "Infrastructure Committee",
-        details: "Gio manages the technical infrastructure supporting ITSO's activities and projects.",
+        name: "Giorj Allen Gonzales",
+        role: "System Analyst",
+        details: "Giorj's goal is to build robust technical infrastructure and optimize systems supporting ITSO operations. He focuses on ensuring reliable systems, implementing efficient solutions, mentoring on DevOps practices, and creating scalable infrastructure that supports ITSO's growth and technical initiatives.",
         tech: ["System Administration", "Cloud Services", "DevOps"],
-        photo: "../img/gio.png"
+        photo: "./img/gio.png"
     },
     22: {
-        name: "Olarte",
-        role: "Documentation Committee",
+        name: "John Vincet Olarte",
+        role: "2nd year Representative",
         details: "Olarte ensures all ITSO projects and processes are properly documented for knowledge sharing and continuity.",
         tech: ["Technical Writing", "Documentation Tools", "Knowledge Management"],
-        photo: "../img/olarte.png"
+        photo: "./img/olarte.png"
     },
     23: {
-        name: "Gerald",
-        role: "Quality Assurance Committee",
+        name: "Gerald Jamindang",
+        role: "First year Representative",
         details: "Gerald focuses on ensuring the quality and reliability of ITSO's technical projects and deliverables.",
         tech: ["Testing", "Quality Assurance", "Debugging"],
-        photo: "../img/gerald.png"
+        photo: "./img/gerald.png"
     },
     24: {
-        name: "Brian Clark",
-        role: "Innovation Committee",
-        details: "Brian explores innovative applications of technology and encourages creative problem-solving within ITSO.",
-        tech: ["Innovation Management", "Creative Thinking", "Project Ideation"],
-        photo: "../img/23.png"
+        name: "Bienvinido James Publico",
+        role: "Photographer",
+        details: "Publico responsible for capturing events, people, and key moments through high-quality images. Skilled in composition, lighting, and timing to visually document activities and strengthen the organization’s identity and communication.",
+        tech: ["DSLR / Mirrorless Camera", "Adobe Lightroom", "Adobe Photoshop"],
+        photo: "./img/23.png"
     },
     25: {
-        name: "Rachel Green",
-        role: "Mentorship Committee",
-        details: "Rachel coordinates mentorship programs, connecting experienced members with those new to technology fields.",
-        tech: ["Mentorship Programs", "Peer Learning", "Skill Development"],
-        photo: "../img/24.png"
+        name: "Kristin Chine Calip",
+        role: "Graphics Designer",
+        details: "Calip is a creative and detail-oriented graphic designer bringing visual ideas to life with fresh, engaging designs.",
+        tech: ["Adobe Photoshop", "Adobe Illustrator", "Canva"],
+        photo: "./img/24.png"
     }
 };
 
