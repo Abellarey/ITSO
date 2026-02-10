@@ -990,4 +990,25 @@
       .footer-social {
           justify-content: center;
       }
+
+      /* Mobile text alignment */
+      p {
+          text-align: justify;
+      }
+
+      .member-details {
+          text-align: justify;
+      }
+
+      .about-text p {
+          text-align: justify;
+      }
+
+      .team-subtitle {
+          text-align: justify;
+      }
+
+      .about-text h3 {
+          text-align: center;
+      }
   }
