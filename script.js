@@ -143,8 +143,8 @@
             23: {
                 name: "Gerald Jamindang",
                 role: "First year Representative",
-                details: "Gerald focuses on ensuring the quality and reliability of ITSO's technical projects and all deliverables. He tests thoroughly, identifies issues, and maintains high standards for organizational technical excellence.",
-                tech: ["Testing", "Quality Assurance", "Debugging"],
+                details: "Gerald focuses on Represents the interests and concerns of first-year students in ITSO. Serves as a bridge between freshmen and the organization’s officers by communicating updates, gathering feedback, and encouraging participation in activities.",
+                tech: ["Event Coordination", "Note-Taking & Documentation Tools"],
                 photo: "./img/gerald.png"
             },
             24: {
